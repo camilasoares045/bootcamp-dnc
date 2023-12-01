@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#principal{
+    width: 100%;
+    height: 100px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BABABA;
+}
+
+#menu{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+
+}
+
+#principal div a{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#principal div a:hover{
+    color: #CCCCCC;
+
+}
+
+#principal button{
+    background-color: #0C70F2;
+    color: #ffffff;
+    border: 0;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 5%;
+    box-shadow: 3px 2px 4px 0px #0C70F240;
+}
+
